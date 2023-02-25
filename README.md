@@ -113,6 +113,16 @@ Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 - [GitHub](https://github.com/yosaddis)
 - [LinkedIn](https://www.linkedin.com/in/yoseph-addisu-79a58b60)
 
+## Authors <a name="FutureFeature"></a>
+
+I plan to add the following features
+- Write test cases using ES6 promise.
+- Add a git hub page to the project.
+
+- [GitHub](https://github.com/yosaddis)
+- [LinkedIn](https://www.linkedin.com/in/yoseph-addisu-79a58b60)
+
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
