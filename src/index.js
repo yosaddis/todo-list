@@ -6,7 +6,8 @@ const newTask = {};
 const taskList = new Tasks();
 
 if (localStorage.TodoDB) {
-  taskList.tasks = JSON.parse(localStorage.getItem('TodoDB'));
+  let local_storage = localStorage.getItem('TodoDB');
+  taskList.tasks = local_storage !== undefined ? JSON.parse(local_storage) : [] ;
 }
 
 const clearAll = document.querySelector('.clear-btn');
