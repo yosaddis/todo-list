@@ -38,6 +38,8 @@
 - [x] Use ES6 modules to write modular JavaScript.
 - [x] Create a dynamic to do lists form JavaScript array object.
 - [x] Create a style using a given template.
+- [x] Use local storage for keeping the todo list.
+- [x] Use Tasks module for doing CRUD operations.
 
 ## 🛠 Built With <a name="built-with"></a>
 
