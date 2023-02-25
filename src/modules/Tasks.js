@@ -3,23 +3,6 @@ const Tasks = class {
     this.description = description;
     this.completed = completed;
     this.index = index;
-    //this.tasks = [];
-      /**{
-        description: 'Read all the lesson articles.',
-        completed: false,
-        index: 0,
-      },
-      {
-        description: 'Complete all the projects.',
-        completed: false,
-        index: 1,
-      },
-      {
-        description: 'Do the quiz.',
-        completed: false,
-        index: 2,
-      },
-    ];**/
   }
 
   createList = () => {
