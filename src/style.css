@@ -82,6 +82,8 @@ li {
 }
 
 .menu-container {
+  display: flex;
+  align-items: center;
   padding: 0;
   width: min-content;
   cursor: move;
@@ -90,4 +92,32 @@ li {
 .list-element {
   display: flex;
   justify-content: space-between;
+}
+
+.text-edit {
+  font-family: 'Times New Roman', Times, serif;
+  color: #333;
+  display: block;
+  border: none !important;
+  outline: none;
+  justify-self: baseline;
+  background: transparent;
+  box-shadow: none;
+  overflow: auto;
+  font-size: 1rem;
+  font-style: normal;
+  resize: none;
+  margin: 0;
+  margin-left: 0.5em;
+  padding: 0;
+  word-wrap: break-word;
+  width: 20rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.on-update {
+  background-color: #fffedd;
 }
