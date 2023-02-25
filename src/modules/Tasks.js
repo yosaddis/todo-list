@@ -4,7 +4,7 @@ const Tasks = class {
     this.completed = completed;
     this.index = index;
   }
-  
+
   createList = () => {
     let i = 0;
     this.tasks.forEach((task) => {
