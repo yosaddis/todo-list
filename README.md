@@ -38,6 +38,8 @@
 - [x] Use ES6 modules to write modular JavaScript.
 - [x] Create a dynamic to do lists form JavaScript array object.
 - [x] Create a style using a given template.
+- [x] Use local storage for keeping the todo list.
+- [x] Use Tasks module for doing CRUD operations.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -111,6 +113,16 @@ Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 - [GitHub](https://github.com/yosaddis)
 - [LinkedIn](https://www.linkedin.com/in/yoseph-addisu-79a58b60)
 
+## Future Features <a name="#future-features"></a>
+
+I plan to add the following features
+- Write test cases using ES6 promise.
+- Add a git hub page to the project.
+
+- [GitHub](https://github.com/yosaddis)
+- [LinkedIn](https://www.linkedin.com/in/yoseph-addisu-79a58b60)
+
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -123,4 +135,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
