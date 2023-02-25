@@ -3,8 +3,8 @@ const Tasks = class {
     this.description = description;
     this.completed = completed;
     this.index = index;
-    this.tasks = [
-      {
+    //this.tasks = [];
+      /**{
         description: 'Read all the lesson articles.',
         completed: false,
         index: 0,
@@ -19,11 +19,11 @@ const Tasks = class {
         completed: false,
         index: 2,
       },
-    ];
+    ];**/
   }
 
   createList = () => {
-    let i = -1;
+    let i = 0;
     this.tasks.forEach((task) => {
       i += 1;
       task.index = i;
