@@ -40,6 +40,9 @@
 - [x] Create a style using a given template.
 - [x] Use local storage for keeping the todo list.
 - [x] Use Tasks module for doing CRUD operations.
+- [x] Use a module to mark task completed flags.
+- [x] Delete completed tasks using filter.
+- [x] Affect the local storage according to the user's action.
 
 ## 🛠 Built With <a name="built-with"></a>
 
