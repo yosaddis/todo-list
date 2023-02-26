@@ -66,7 +66,7 @@ After cloning the project into directory, you can run:
 ### `npm run start`
 
 Runs the app in the development mode.\
-Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
+Open [https://yosaddis.github.io/todo-list/](https://yosaddis.github.io/todo-list/dist) to view it in the browser.
 
 
 ### Screenshots <a name="screenshots"></a>
