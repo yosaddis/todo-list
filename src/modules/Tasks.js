@@ -82,7 +82,6 @@ const Tasks = class {
       label.innerHTML = task.description;
       checkBox.checked = task.completed;
 
-     
       label.addEventListener('click', () => {
         label.classList.add('hidden');
         textInput.classList.remove('hidden');
@@ -112,14 +111,13 @@ const Tasks = class {
       });
 
       checkBox.addEventListener('change', (e) => {
-		if(e.currentTarget.checked){
-		  label.style.textDecoration = 'line-through';
+        if (e.currentTarget.checked) {
+          label.style.textDecoration = 'line-through';
           this.completedTask(task, checkBox, label);
-		}
-		else{
-			label.style.textDecoration = 'none';
-			this.completedTask(task, checkBox, label);
-		}
+        } else {
+          label.style.textDecoration = 'none';
+          this.completedTask(task, checkBox, label);
+        }
       });
 
       icon.addEventListener('click', () => {
