@@ -2,7 +2,6 @@ import Tasks from './modules/Tasks.js';
 import './style.css';
 import cleanTasks from './modules/cleanTask.js';
 
-const newTask = {};
 const taskList = new Tasks();
 
 if (localStorage.TodoDB) {
@@ -16,8 +15,7 @@ const inputElement = document.querySelector('input');
 const ulElement = document.querySelector('ul');
 
 inputElement.addEventListener('change', () => {
-
-	taskList.addTask(new Tasks(inputElement.value, false, taskList.tasks.length));
+  taskList.addTask(new Tasks(inputElement.value, false, taskList.tasks.length));
 });
 
 window.addEventListener('keyup', (e) => {
