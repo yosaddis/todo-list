@@ -23,7 +23,7 @@ const Tasks = class {
     this.displayTasks();
   };
 
-  removeTask(task) {
+  removeTask = (task) => {
     const result = this.tasks.filter((b) => b.index !== task.index);
     this.tasks = result;
     this.createList();
