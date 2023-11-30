@@ -24,7 +24,6 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-
 ## 📖 Overview <a name="about-project"></a>
 
 # To Do list
@@ -67,7 +66,6 @@ After cloning the project into directory, you can run:
 
 Runs the app in the development mode.\
 Open [https://yosaddis.github.io/todo-list/](https://yosaddis.github.io/todo-list/dist) to view it in the browser.
-
 
 ### Screenshots <a name="screenshots"></a>
 
@@ -115,16 +113,17 @@ Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
 - [GitHub](https://github.com/yosaddis)
 - [LinkedIn](https://www.linkedin.com/in/yoseph-addisu-79a58b60)
+- Portfolio: [Portfolio](https:https://yoseph-portfolio.onrender.com/)
 
 ## Future Features <a name="#future-features"></a>
 
 I plan to add the following features
+
 - Write test cases using ES6 promise.
 - Add a git hub page to the project.
 
 - [GitHub](https://github.com/yosaddis)
 - [LinkedIn](https://www.linkedin.com/in/yoseph-addisu-79a58b60)
-
 
 ## 🤝 Contributing <a name="contributing"></a>
 
